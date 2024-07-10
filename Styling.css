@@ -1,0 +1,55 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a2234;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+    font-family: impact;
+    font-size: 50px;
+}
+
+div ul {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+}
+
+header {
+    background-color: #1a2234;
+    color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+li a:hover {
+    color: rgb(38, 139, 255);
+}
+
+a{
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+div h2 {
+    color: #eaeaea;
+}
+
+.nokotan {
+    display: block;
+    margin-left: 15px;
+    width: 15%;
+    font-family: Helvetica;
+}
